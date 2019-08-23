@@ -1,0 +1,216 @@
+/*
+ * js-login-signup-system
+ * version: 1.0.0
+ * By: Elias Abdurrahman
+ * date: August 19, 2019
+ */
+body {
+  background: #A0522D;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 100vh;
+  margin: 0px auto;
+}
+.login {
+  display: block;
+  width: 100%;
+  background: #fff;
+  margin: 130px auto;
+  padding: 50px 15px;
+  border-radius: 5px;
+}
+.login h2 {
+  text-align: center;
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 700;
+
+}
+.login input{
+  width: 100%;
+  color: #333;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  font-size: 18px;
+}
+.login label {
+  color: #888;
+  display: block;
+  padding: 10px 2px;
+  font-variant: small-caps;
+  font-size: 17px;
+}
+.btn-holder {
+  margin-top: 20px;
+}
+.btn-holder button {
+  border: none;
+  width: 100px;
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  float: right;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-holder button:hover {
+  opacity: .8;
+}
+.btn-holder .signup-text-1 {
+  color: #555;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+.btn-holder .signup-btn-1 {
+  color: #0055F2;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.btn-holder .signup-btn-1:hover {
+  opacity: .8;
+}
+
+.signup {
+  width: 100%;
+  background: #fff;
+  margin: 130px auto;
+  padding: 50px 15px;
+  border-radius: 5px;
+}
+.signup h2 {
+  text-align: center;
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 700;
+
+}
+.signup input{
+  width: 100%;
+  color: #333;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  font-size: 18px;
+}
+.signup label {
+  color: #888;
+  display: block;
+  padding: 10px 2px;
+  font-variant: small-caps;
+  font-size: 17px;
+}
+.profile {
+  width: 100%;
+  background: #fff;
+  margin: 130px auto;
+  padding: 50px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.profile .user-img {
+  max-width: 200px;
+  width: 90%;
+  border-radius: 50%;
+}
+.profile .full-name {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.opt {
+  margin-top: 25px;
+  border-top: 2px solid #eee;
+  padding: 10px;
+}
+.opt span {
+  padding: 10px;
+  cursor: pointer;
+  color: #333;
+  font-size: 15px;
+}
+.opt span:hover{
+  opacity: .8;
+}
+
+.edit-profile {
+  width: 100%;
+  background: #fff;
+  margin: 130px auto;
+  padding: 50px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+.edit-profile .user-img {
+  max-width: 200px;
+  width: 90%;
+  border-radius: 50%;
+}
+.edit-profile .full-name {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.edit-form {
+  text-align: left;
+}
+
+.edit-form h2 {
+  text-align: left;
+  color: #aaa;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  text-transform: uppercase;
+
+}
+.edit-form input{
+  width: 100%;
+  color: #777;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  font-size: 18px;
+}
+.edit-form label {
+  color: #888;
+  display: block;
+  padding: 10px 2px;
+  font-variant: small-caps;
+  font-size: 17px;
+}
+.error-msg {
+  margin-left: 10px;
+  color: #C80000;
+  font-weight: 100;
+  padding: 15px 2px;
+  font-size: 15px;
+}
+.suc-msg {
+  color: #4CAF50;
+  font-weight: 100;
+  padding: 15px 2px;
+  font-size: 15px;
+}
